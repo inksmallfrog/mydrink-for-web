@@ -5,6 +5,7 @@
   "main": "./app/app.js",
   "scripts": {
     "compile": "webpack",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,11 @@
     "babel-loader": "^7.0.0",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "koa-webpack-dev-middleware": "^1.4.5",
     "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-static": "^3.0.0"
   }
 }

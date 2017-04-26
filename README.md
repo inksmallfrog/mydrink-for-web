@@ -9,3 +9,9 @@ Compile
 ```
 npm run compile
 ```
+
+Start
+---
+```
+npm run start
+```
