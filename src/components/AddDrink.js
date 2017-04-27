@@ -2,7 +2,7 @@
 * @Author: inksmallfrog
 * @Date:   2017-04-26 21:36:32
 * @Last Modified by:   inksmallfrog
-* @Last Modified time: 2017-04-27 09:02:28
+* @Last Modified time: 2017-04-27 10:25:48
 */
 
 'use strict';
@@ -16,10 +16,15 @@ import FontIcon from 'material-ui/FontIcon';*/
 import style from 'styles/drink.css';
 
 class AddDrink extends React.Component{
+    handleBtnClick(e){
+        this.props.openDialog();
+        e.stopPropagation();
+        e.preventDefault();
+    }
     render(){
         return(
             <div className={style.drinkSec}>
-                <button className={style.addDrink}><span className="iconfont add"></span></button>
+                <button className={style.addDrink} onClick={this.handleBtnClick.bind(this)}><span className="iconfont add"></span></button>
             </div>
         )
     }

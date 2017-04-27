@@ -2,7 +2,7 @@
 * @Author: inksmallfrog
 * @Date:   2017-04-26 17:12:48
 * @Last Modified by:   inksmallfrog
-* @Last Modified time: 2017-04-27 08:23:02
+* @Last Modified time: 2017-04-27 10:24:55
 */
 
 'use strict';
@@ -18,7 +18,7 @@ class Stage extends React.Component{
                 {this.props.drinks.map((drink) => {
                     return <Drink key={drink.id} drink={drink}/>
                 })}
-                <AddDrink />
+                <AddDrink openDialog={this.props.openDialog}/>
             </div>
         )
     }

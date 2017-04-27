@@ -1,0 +1,36 @@
+/*
+* @Author: inksmallfrog
+* @Date:   2017-04-27 09:45:20
+* @Last Modified by:   inksmallfrog
+* @Last Modified time: 2017-04-27 10:17:34
+*/
+.box{
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 3px;
+    & input{
+        position: absolute;
+        width: 200%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        opacity: 0;
+        background-color: green;
+        cursor: pointer;
+    }
+    & .button{
+        display: inline-block;
+        top: 0;
+        left: 0;
+        padding: 2px 0;
+        width: 100%;
+        height: 100%;
+        background-color: green;
+        color: white;
+        cursor: pointer;
+    }
+}

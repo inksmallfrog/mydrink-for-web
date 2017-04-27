@@ -1,0 +1,36 @@
+/*
+* @Author: inksmallfrog
+* @Date:   2017-04-27 09:20:19
+* @Last Modified by:   inksmallfrog
+* @Last Modified time: 2017-04-27 10:30:23
+*/
+.dialog{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 102;
+    &.show{
+        display: flex;
+    }
+
+    & .main{
+        margin: auto;
+        background-color: #eee;
+        border-radius: 3px;
+        padding: 10px;
+        & .title{
+            text-align: center;
+            font-size: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px #ccc solid;
+            margin-bottom: 10px;
+        }
+        & form{
+            text-align: center;
+        }
+    }
+}

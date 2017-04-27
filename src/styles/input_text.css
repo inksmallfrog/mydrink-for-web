@@ -1,0 +1,20 @@
+/*
+* @Author: inksmallfrog
+* @Date:   2017-04-27 09:41:04
+* @Last Modified by:   inksmallfrog
+* @Last Modified time: 2017-04-27 09:56:05
+*/
+.box{
+    & input[type='text']{
+        display: inline-block;
+        padding: 0 3px;
+        margin: 10px 0;
+        background: none;
+        border: none;
+        border-bottom: 1px #333 solid;
+        font-size: 15px;
+        &:focus{
+            outline: none;
+        }
+    }
+}

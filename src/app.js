@@ -2,7 +2,7 @@
 * @Author: inksmallfrog
 * @Date:   2017-04-26 16:03:43
 * @Last Modified by:   inksmallfrog
-* @Last Modified time: 2017-04-27 09:12:03
+* @Last Modified time: 2017-04-27 10:44:21
 */
 
 'use strict';
@@ -30,6 +30,11 @@ class App extends React.Component{
             isDialogOpen: false
         }
     }
+    openDialog(){
+        this.setState({
+            isDialogOpen: true
+        })
+    }
     render(){
         let drinkCount = 0;
         this.state.drinks.forEach((drink)=>{
@@ -38,7 +43,7 @@ class App extends React.Component{
         return (
             <div className="root">
                 <Header drinkCount={drinkCount}/>
-                <Stage drinks={this.state.drinks}/>
+                <Stage drinks={this.state.drinks} openDialog={this.openDialog.bind(this)}/>
                 <Dialog open={this.state.isDialogOpen}/>
             </div>
         )
