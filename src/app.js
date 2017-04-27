@@ -2,10 +2,11 @@
 * @Author: inksmallfrog
 * @Date:   2017-04-26 16:03:43
 * @Last Modified by:   inksmallfrog
-* @Last Modified time: 2017-04-27 10:44:21
+* @Last Modified time: 2017-04-27 12:35:39
 */
 
 'use strict';
+import 'whatwg-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom';
 

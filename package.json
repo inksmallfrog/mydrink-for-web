@@ -40,8 +40,13 @@
   },
   "dependencies": {
     "koa": "^2.2.0",
+    "koa-body": "^2.0.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.1.1",
     "koa-static": "^3.0.0",
+    "mongoose": "^4.9.6",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "whatwg-fetch": "^2.0.3"
   }
 }

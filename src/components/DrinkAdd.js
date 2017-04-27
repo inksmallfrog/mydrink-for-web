@@ -2,7 +2,7 @@
 * @Author: inksmallfrog
 * @Date:   2017-04-26 21:36:32
 * @Last Modified by:   inksmallfrog
-* @Last Modified time: 2017-04-27 10:25:48
+* @Last Modified time: 2017-04-27 11:57:58
 */
 
 'use strict';
@@ -15,7 +15,7 @@ import FontIcon from 'material-ui/FontIcon';*/
 //import next_pic from 'upload_pics/next.jpg';
 import style from 'styles/drink.css';
 
-class AddDrink extends React.Component{
+export default class DrinkAdd extends React.Component{
     handleBtnClick(e){
         this.props.openDialog();
         e.stopPropagation();
@@ -29,4 +29,3 @@ class AddDrink extends React.Component{
         )
     }
 }
-export default AddDrink;

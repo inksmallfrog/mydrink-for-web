@@ -2,7 +2,7 @@
 * @Author: inksmallfrog
 * @Date:   2017-04-27 09:20:19
 * @Last Modified by:   inksmallfrog
-* @Last Modified time: 2017-04-27 10:30:23
+* @Last Modified time: 2017-04-27 12:00:58
 */
 .dialog{
     display: none;
@@ -31,6 +31,13 @@
         }
         & form{
             text-align: center;
+            & button{
+                background-color: green;
+                width: 50%;
+                padding: 10px 0;
+                border-radius: 3px;
+                color: white;
+            }
         }
     }
 }

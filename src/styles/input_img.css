@@ -1,0 +1,60 @@
+/*
+* @Author: inksmallfrog
+* @Date:   2017-04-27 09:45:20
+* @Last Modified by:   inksmallfrog
+* @Last Modified time: 2017-04-27 14:38:53
+*/
+.box{
+    display: inline-block;
+    width: 60%;
+    max-width: 100px;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 3px;
+    & input{
+        position: absolute;
+        width: 200%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        opacity: 0;
+        background-color: green;
+        cursor: pointer;
+        z-index: 102;
+    }
+    & .figure{
+        position: relative;
+        display: inline-block;
+        top: 0;
+        left: 0;
+        padding: 2px 0;
+        width: 100%;
+        height: 100%;
+        background-color: #eee;
+        color: white;
+        cursor: pointer;
+        & img{
+            display: inline-block;
+            width: 100%;
+        }
+        & span{
+            display: inline-block;
+            width: 100%;
+            font-size: 50px;
+            line-height: 80px;
+            padding-bottom: 20px;
+            color: #333;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        & p{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            pointer-events: none;
+        }
+    }
+}
