@@ -2,7 +2,7 @@
 * @Author: inksmallfrog
 * @Date:   2017-04-26 16:00:29
 * @Last Modified by:   inksmallfrog
-* @Last Modified time: 2017-04-27 12:35:03
+* @Last Modified time: 2017-04-27 16:24:41
 */
 
 'use strict';
@@ -15,7 +15,7 @@ module.exports = {
         './app.js',
     ],
     output: {
-        path: path.join(__dirname, 'public'),
+        path: path.join(__dirname, './public'),
         filename: 'bundle.js',
     },
     module: {
