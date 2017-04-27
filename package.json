@@ -5,7 +5,7 @@
   "main": "./app/app.js",
   "scripts": {
     "compile": "webpack",
-    "dist": "webpack -p",
+    "dist": "NODE_ENV=production webpack -p --config ./webpack.production.config.js",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

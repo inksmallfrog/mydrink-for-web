@@ -2,7 +2,7 @@
 * @Author: inksmallfrog
 * @Date:   2017-04-26 16:00:29
 * @Last Modified by:   inksmallfrog
-* @Last Modified time: 2017-04-27 16:53:34
+* @Last Modified time: 2017-04-27 16:57:56
 */
 
 'use strict';
@@ -91,5 +91,8 @@ module.exports = {
             path.join(__dirname, 'node_modules'),
             path.join(__dirname, 'src')
         ],
-    }
+    },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin()
+    ]
 };
