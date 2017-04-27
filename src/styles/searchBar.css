@@ -1,0 +1,30 @@
+/*
+* @Author: inksmallfrog
+* @Date:   2017-04-27 07:51:34
+* @Last Modified by:   inksmallfrog
+* @Last Modified time: 2017-04-27 09:03:53
+*/
+:root{
+    --lineHeight: 64px;
+}
+
+.searchBox{
+    line-height: var(--lineHeight);
+}
+
+.searchInput{
+    background: none;
+    border: none;
+    border-bottom: 1px white solid;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.searchBtn{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

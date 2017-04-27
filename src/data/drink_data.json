@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "name": "冰红茶",
+        "factory": "康师傅",
+        "pic_src": "upload_pics/0.jpg",
+        "price": 2.6,
+        "drink_times": 26,
+        "last_drunk_time": "2017-4-26"
+    },
+    {
+        "id": 1,
+        "name": "茉莉果茶",
+        "factory": "康师傅",
+        "pic_src": "upload_pics/1.jpg",
+        "price": 2.6,
+        "drink_times": 24,
+        "last_drunk_time": "2017-4-23"
+    },
+    {
+        "id": 2,
+        "name": "茉莉清茶",
+        "factory": "康师傅",
+        "pic_src": "upload_pics/2.jpg",
+        "price": 2.6,
+        "drink_times": 37,
+        "last_drunk_time": "2017-4-25"
+    },
+    {
+        "id": 3,
+        "name": "冰红茶",
+        "factory": "统一",
+        "pic_src": "upload_pics/3.jpg",
+        "price": 2.6,
+        "drink_times": 11,
+        "last_drunk_time": "2017-3-25"
+    }
+]

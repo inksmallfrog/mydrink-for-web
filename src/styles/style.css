@@ -1,0 +1,21 @@
+/*
+* @Author: inksmallfrog
+* @Date:   2017-04-26 19:45:08
+* @Last Modified by:   inksmallfrog
+* @Last Modified time: 2017-04-27 08:53:51
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ccc;
+}
+button{
+    border: none;
+    outline: none;
+    &:focus, &:active{
+        border: none;
+        outline: none;
+    }
+}
