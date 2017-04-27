@@ -2,11 +2,12 @@
 * @Author: inksmallfrog
 * @Date:   2017-04-26 16:00:29
 * @Last Modified by:   inksmallfrog
-* @Last Modified time: 2017-04-27 16:24:41
+* @Last Modified time: 2017-04-27 16:30:37
 */
 
 'use strict';
 const path = require('path');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
     context: path.join(__dirname, 'src'),
@@ -85,4 +86,7 @@ module.exports = {
             path.join(__dirname, 'src')
         ],
     },
+    plugins: [
+        new UglifyJSPlugin()
+    ]
 };
